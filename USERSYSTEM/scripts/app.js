@@ -1,11 +1,11 @@
 // create an object constructor for User
-function User (email,password, fName, lName, age, address, phone, pMethod, color){
+function User (email,password, firstName, lastName, age, address, phone, pMethod, color){
     // this.username;
 
     this.email = email;
     this.password = password;
-    this.fName = fName;
-    this.lName =lName;
+    this.firstName = firstName;
+    this.lastName =lastName;
     this.age =age;
     this.address = address;
     this.phone =phone;
@@ -16,8 +16,8 @@ function User (email,password, fName, lName, age, address, phone, pMethod, color
 // get the inputs from the HTML using jQuery
 let inputEmail = $("#email");
 let inputPassword = $('#password');
-let inputFirstName = $('#fName');
-let inputLastName = $('#lName');
+let inputFirstName = $('#firstName');
+let inputLastName = $('#lastName');
 let inputAge = $('#age');
 let inputAddress = $('#address');
 let inputPhoneNumber = $('#pNumber');
