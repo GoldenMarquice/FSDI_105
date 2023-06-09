@@ -1,3 +1,17 @@
-.btn{
+body {
+    background-color: beige;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    width: 50%;
+    height:70px;
+    text-align: center;
+    padding: 15px;
+}
+
+.btn {
     background-color: blue;
 }

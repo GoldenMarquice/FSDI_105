@@ -6,14 +6,14 @@ function displayUsers(usersArray) {
     for (let i = 0; i < usersArray.length; i++) {
         let user = usersArray[i];
         tr += ` 
-        <tr id="${user.id}" class="table-row">
+        <tr id="class="table-row">
         <td>${user.email}</td>
         <td>${user.firstName}</td>
         <td>${user.lastName}</td>
         <td>${user.age}</td>
         <td>${user.address}</td>
-        <td>${user.pNumber}</td>
-        <td>${user.pMethod}</td>
+        <td>${user.phoneNumber}</td>
+        <td>${user.paymentMethod}</td>
         <td>${user.color}</td>
     </tr>
     `;

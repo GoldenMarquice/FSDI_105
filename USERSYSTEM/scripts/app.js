@@ -1,5 +1,5 @@
 // create an object constructor for User
-function User (email,password, firstName, lastName, age, address, phone, pMethod, color){
+function User (email,password, firstName, lastName, age, address, phoneNumber, pMethod, color){
     // this.username;
 
     this.email = email;
@@ -8,8 +8,8 @@ function User (email,password, firstName, lastName, age, address, phone, pMethod
     this.lastName =lastName;
     this.age =age;
     this.address = address;
-    this.phone =phone;
-    this.pMethod = pMethod;
+    this.phoneNumber = phoneNumber;
+    this.paymentMethod = paymentMethod;
     this.color = color;
 }
 
@@ -20,8 +20,8 @@ let inputFirstName = $('#firstName');
 let inputLastName = $('#lastName');
 let inputAge = $('#age');
 let inputAddress = $('#address');
-let inputPhoneNumber = $('#pNumber');
-let inputPaymentMethod = $('#pMethod');
+let inputPhoneNumber = $('#phoneNumber');
+let inputPaymentMethod = $('#paymentMethod');
 let inputColor = $('#color');
 
 // create the register function 
